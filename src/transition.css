@@ -1,0 +1,27 @@
+.fade-enter{
+    opacity: 0;
+    transition: all 600ms;
+}
+.fade-enter-active{
+    opacity: 1;
+    transition: all 600ms;
+}
+.fade-appear{
+    opacity: 0;
+    transition: all 600ms;
+}
+.fade-appear-active{
+    opacity: 1;
+}
+.fade-exit{
+    opacity: 1;
+    background-color: red;
+}
+.fade-exit-active{
+    opacity: 0;
+    transition: all 6000ms;
+    background-color: transparent;
+}
+.fade-exit-done{
+    opacity: 1;
+}
